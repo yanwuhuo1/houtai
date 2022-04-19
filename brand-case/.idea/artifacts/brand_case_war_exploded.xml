@@ -1,0 +1,38 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="brand-case:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/brand_case_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="brand-case" />
+          <element id="library" level="application" name="axios" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.48" />
+          <element id="library" level="project" name="Maven: taglibs:standard:1.1.2" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:axios:0.24.0" />
+          <element id="library" level="project" name="Maven: org.webjars.npm:follow-redirects:1.14.9" />
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.7" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.66" />
+          <element id="library" level="project" name="Maven: io.github.xiao-organization:axios:1.0.0" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="brand-case/web/Web" />
+      <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.66" />
+      <element id="library" level="project" name="Maven: io.github.xiao-organization:axios:1.0.0" />
+      <element id="library" level="project" name="Maven: javax.servlet.jsp:jsp-api:2.2" />
+      <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
+      <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
+      <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+      <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.48" />
+      <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.7" />
+      <element id="library" level="project" name="Maven: org.webjars.npm:axios:0.24.0" />
+      <element id="library" level="project" name="Maven: org.webjars.npm:follow-redirects:1.14.9" />
+      <element id="library" level="project" name="Maven: taglibs:standard:1.1.2" />
+      <element id="library" level="application" name="axios" />
+      <element id="library" level="application" name="element-ui" />
+      <element id="library" level="application" name="servlet-api" />
+    </root>
+  </artifact>
+</component>

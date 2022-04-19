@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/vue.js"></script>
+    <!-- 引入样式 -->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <!-- 引入组件库 -->
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <!-- axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <style>
+        .el-carousel__item h3 {
+            color: #475669;
+            font-size: 18px;
+            opacity: 0.75;
+            line-height: 300px;
+            margin: 0;
+        }
+
+        .el-carousel__item:nth-child(2n) {
+            background-color: #99a9bf;
+        }
+
+        .el-carousel__item:nth-child(2n+1) {
+            background-color: #d3dce6;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+
+    <template>
+        <el-carousel :interval="5000" arrow="always">
+            <el-carousel-item v-for="item in imgwrap" :key="item.url">
+                <img :src="item.url"/>
+            </el-carousel-item>
+        </el-carousel>
+    </template>
+</div>
+
+<script>
+    new Vue({
+        el:"#app",
+        methods: {
+
+        },
+        data(){
+            return{
+                imgwrap:[
+                    {url:require("https://img.mianfeiwendang.com/pic/65133e4129b6446aa22c9f9f/1-810-jpg_6-1080-0-0-1080.jpg")},
+                    {url:require("../assets/img/pic2.jpg")},
+                    {url:require("../assets/img/pic3.jpg")},
+                    {url:require("../assets/img/pic4.jpg")},
+                    {url:require("../assets/img/pic5.jpg")}
+                ]
+            }
+
+
+        }
+    })
+</script>
+</body>
+</html>
